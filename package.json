@@ -1,0 +1,18 @@
+{
+  "name": "lambda.ip2location",
+  "version": "1.0.0",
+  "description": "Ip2Location Lambda App",
+  "main": "index.js",
+  "dependencies": {
+    "ip2location-nodejs": "^8.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "package": "sh ./script/package.sh",
+    "profile": "sh ./script/run.sh",
+    "dev": "node ./lambda/lambda.js"
+  },
+  "keywords": ["lambda", "ip2location", "nodejs"],
+  "author": "Ahmet Kavugubuyuk",
+  "license": "ISC"
+}
