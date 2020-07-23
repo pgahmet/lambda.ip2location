@@ -9,7 +9,6 @@
   "devDependencies": {},
   "scripts": {
     "package": "sh ./script/package.sh",
-    "profile": "sh ./script/run.sh",
     "dev": "node ./lambda/lambda.js"
   },
   "keywords": ["lambda", "ip2location", "nodejs"],
